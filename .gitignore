@@ -1,0 +1,21 @@
+# --- ความลับ (ห้ามหลุด) ---
+.env
+.env.*
+*.key
+
+# --- ข้อมูลขนาดใหญ่และห้ามเผยแพร่ ---
+data/
+poppler/
+output/
+
+# --- ไฟล์ขยะ Python ---
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
